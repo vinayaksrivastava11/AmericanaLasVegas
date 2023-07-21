@@ -521,6 +521,7 @@ function showintro() {
 function closeintro() {
   var popup = document.getElementById("popupintro");
   popup.style.opacity = "0";
+  popup.style.display = "none";
 }
 
 window.addEventListener('load', showintro);
