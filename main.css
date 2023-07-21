@@ -464,7 +464,7 @@ a:link {
   opacity: 0;
   transition: opacity 1s ease-out;
   z-index: 5;
-  margin-top: 15px;
+  margin-top: 8px;
 }
 
 @keyframes slideFromLeft {
