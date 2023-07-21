@@ -56,6 +56,7 @@ window.addEventListener('scroll', function () {
   dropdownmenu.style.height='0'
   for (var i = 0; i < 7; i++) {
     ddch[i].style.opacity="0";
+    ddch[i].style.display="none"
   }
  
    aboutus = document.getElementById('aboutus');
