@@ -261,12 +261,7 @@ window.addEventListener('DOMContentLoaded', function () {
     popup.style.display = 'none';
   });
 
-  window.addEventListener('scroll', () => {
-    
-    if(window.scrollY>6000 || this.window.scrollY<3600)
-    popup.style.display = 'none';
-    
-  });
+  
 
   
   prevButton.addEventListener('click', () => {
