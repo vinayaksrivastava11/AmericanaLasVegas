@@ -1462,8 +1462,9 @@ input[type="email"]:focus + .dynamic-line {
   position:relative;
   width: 100vw;
   top:-10px;
+  background-color: transparent;
   height: 0;
-  display: none;
+  z-index: 99999;
 
 }
 .bsb3{
